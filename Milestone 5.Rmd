@@ -1,0 +1,34 @@
+---
+title: "Milestone 5"
+author: "Molly Chiang"
+date: "3/28/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::write_bib(c("knitr", "stringr"), "bibliography.bib", width = 60)
+
+# load libraries
+
+library(bookdown)
+library(gt)
+library(gtsummary)
+library(rstanarm)
+library(stargazer)
+library(tidyverse)
+```
+
+2. A beautiful graphic which uses this data. (May be similar to or different from a graphic in the original paper.) Use King et al (2000) for inspiration. This is the portion of the submission which will be graded most harshly. Make sure that you include a thorough caption.
+
+3. A bibliography with at least five references, one of which will be the article you are replicating.
+
+## Overview of Replication Paper (Make it 300 words!!!!!)
+
+This paper uses data from the results of the 1947 high school leaving age reform in Great Britain, to analyze how additional years in high school affect political preferences--namely in voting for the Conservative Party. In 1947, Great Britain changed the high school leaving age from 14 to 15, this induced almost half the student population to stay in school for 1 or 2 more years. Data from the 10 British elections between 1947 and 2010 was then used to compare voters young enough to have been effected by the reform to those who were too old using regression discontinuity. The results of data analysis revealed staying in high school for longer substantially increased likelihood to vote for the Conservative Party (staying one extra year increased probailitiy of voting Conservative by almost 12 percentage points). This supports the previously studied fact that high school is extremely pertinent to political opinions later in life. In addition, this significant finding indicates the education reform of 1947 may have had an even greater affect on politics and election results nationwide over many years than ever expected. 
+
+All analysis for this paper is available in my github repo.^[[Link to Github Repo](https://github.com/mollyechiang/1006_milestone_5)].
+
+
+5. An Appendix which include a replication of at least one of the tables from your paper. (It can be a simple summary table.) Also, take a screen shot of the original table and include that image in your Appendix. We want to see how closely your results match the original paper’s.
+
